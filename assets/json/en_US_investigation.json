@@ -156,6 +156,22 @@
             "previousQuestionId": null,
             "lastQuestion": false
         },
+        "sub_site": {
+            "questionObject": {
+                "type": "TEXT_AREA",
+                "questionId": "sub_site",
+                "questionText": "Sub Site",
+                "required": "false",
+                "validationMessage": null,
+                "regex": "^([a-zA-Z0-9 ]+)$",
+                "hintText": null,
+                "minvalidator": 1,
+                "maxValidator": 1999
+            },
+            "nextQuestionId": null,
+            "previousQuestionId": null,
+            "lastQuestion": false
+        },
         "tissue_collected_for_repository": {
             "questionObject": {
                 "type": "CHIP_OPTIONS",
